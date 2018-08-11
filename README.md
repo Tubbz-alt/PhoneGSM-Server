@@ -5,6 +5,8 @@ Services like PubNub and Twilio exist, and provide APIs, for this very purpose. 
 
 Indeed, we have a few options. You could pay for such a service, you could purchase a GSM Module, or shield (for an Arduino, Particle board, etc.), or you could use a USB Voice Modem attached to your computer which you would talk to with AT commands.
 
-With a little bit of a "hacker" mindset, however, we can easily turn an old phone into a fully functioning GSM Module equivalent, which will forward calls or text messages to a server of our choosing (I use a RaspberryPi). Once recieved, we can trip a callback function or eventhandler on whatever client is listening. At that point, you can handle the input stream however you like.'
+With a little bit of a "hacker" mindset, however, we can easily turn an old phone into a fully functioning GSM Module equivalent, which will forward calls or text messages over a WebSocket to a server of our choosing (I use a RaspberryPi). Once recieved, we can execute a Callback Function or Eventhandler on the server, or on whatever client is listening. At that point, you can handle the input stream however you like.
+
+--Work In Progress
 
 
